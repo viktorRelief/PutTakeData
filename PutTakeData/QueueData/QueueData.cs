@@ -19,7 +19,6 @@ public class QueueData<T> : IEnumerable<T>, IQueueData<T>
         _version = 0;
     }
 
-
     public QueueData(int size)
     {
         if (size < 0)
